@@ -1,0 +1,6 @@
+zone "baddomain.ru" {type master; file "sinkhole.zone";};
+zone "malware.cn" {type master; file "sinkhole.zone";};
+zone "hackingtoolz.net" {type master; file "sinkhole.zone";};
+zone "badstuff.nl" {type master; file "sinkhole.zone";};
+zone "c2domain.tk" {type master; file "sinkhole.zone";};
+zone "dodgysite.ru" {type master; file "sinkhole.zone";};
