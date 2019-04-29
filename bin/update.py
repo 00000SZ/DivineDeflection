@@ -3,8 +3,8 @@ import requests
 from requests.exceptions import HTTPError
 
 feedurl = 'https://example.com/blacklist-domains.csv'
-bindconf = 'named.conf.blockeddomains'
-certbundle = 'CertBundle.pem'
+bindconf = '../conf/named.conf.blockeddomains'
+certbundle = '../conf/CertBundle.pem'
 
 try:
     print('Fetching new blacklist from '+feedurl)
